@@ -1,0 +1,124 @@
+*{
+    font-family: 'Ropa Sans', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo 2', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+.navbar-light .navbar-brand{
+    font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1.8rem;
+	color: rgb(255, 255, 255);
+	display:block;
+    padding-left: 70px;
+}
+.navbar-light .navbar-brand .subhead{
+    color: #E7FF10;
+}
+.navbar-light .navbar-brand:hover{
+    color: rgb(255, 255, 255);
+}
+.navbar-light .navbar-nav .nav-item .nav-link{
+    color: rgb(255, 255, 255);
+}
+.navbar-light .navbar-nav .nav-item .nav-link:hover{
+    color: #E7FF10;
+}
+.navbar-light .navbar-nav{
+    padding-right: 70px;
+}
+.navbar-light .navbar-nav .nav-item .active{
+    color: #E7FF10;
+    border-bottom: 2px solid #E7FF10;
+}
+   /*     End Of NAVBAR     */
+   .bg{
+    width: 100%;
+    min-height: 65vh;
+    background: url(../images/backgraound-about.png) no-repeat fixed;
+    background-size: cover;
+}
+.bg h1{
+    padding-top: 40vh;
+    color: #ffffff;
+    text-align: center;
+    font-size: 3rem;
+}
+.bg h1 span{
+    color: #E7FF10;
+}
+   /*     End Of bg     */
+   #watches-s{
+    padding: 30px 0;  
+}
+#watches-s img{
+    max-width: 100%;
+	border-radius: 50%;
+    transition: 0.7s ease;
+    
+}
+#watches-s img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+#watches-s h2{
+    font-weight: 400;
+    font-size: 40px;
+	text-align: center;
+	color:rgb(0, 0, 0);
+}
+#watches-s h3{
+    transition: 0.7s ease;
+    font-weight: 400;
+	text-align: center;
+	color:rgb(0, 0, 0);
+}
+#watches-s h3:hover{
+    transform: scale(1.1);
+    color: #E7FF10;
+    cursor: pointer;
+}
+.imagess{
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+                     /*     End Of watches     */
+#about{
+    width: 100%;
+    min-height: 90vh;
+    background: url(../images/background-about.jpg) no-repeat fixed;
+    background-size: cover;
+}              
+#about h2 {
+    color: #ffffff;
+    padding-top: 45vh;
+    text-align: center;
+    font-size: 3rem
+}       
+#about h2 span{
+    color: #E7FF10;
+}
+                       /*     End Of about     */
+ #footer{
+     background-color: #ffffff;
+ }
+ #footer p{
+    padding-left: 70px;
+    padding-top: 25px;
+     font-weight: 400;
+     text-align: left;
+     font-size: 1.3rem;
+     color: #000000;
+ }
+ #footer p span{
+     color: #4a4a4a;
+ }
+                        /*     End Of footer     */
+                    
+

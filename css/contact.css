@@ -1,0 +1,189 @@
+*{
+    font-family: 'Ropa Sans', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo 2', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+.navbar-light .navbar-brand{
+    font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1.8rem;
+	color: rgb(255, 255, 255);
+	display:block;
+    padding-left: 70px;
+}
+.navbar-light .navbar-brand .subhead{
+    color: #E7FF10;
+}
+.navbar-light .navbar-brand:hover{
+    color: rgb(255, 255, 255);
+}
+.navbar-light .navbar-nav .nav-item .nav-link{
+    color: rgb(255, 255, 255);
+}
+.navbar-light .navbar-nav .nav-item .nav-link:hover{
+    color: #E7FF10;
+}
+.navbar-light .navbar-nav{
+    padding-right: 70px;
+}
+.navbar-light .navbar-nav .nav-item .active{
+    color: #E7FF10;
+    border-bottom: 2px solid #E7FF10;
+}
+   /*     End Of NAVBAR     */
+.bg{
+    width: 100%;
+    min-height: 65vh;
+    background: url(../images/backgraound-about.png) no-repeat fixed;
+    background-size: cover;
+}
+.bg h1{
+    padding-top: 40vh;
+    color: #ffffff;
+    text-align: center;
+    font-size: 3rem;
+}
+.bg h1 span{
+    color: #E7FF10;
+}
+   /*     End Of bg     */
+.h1{
+    font-weight: 400;
+    font-size: 40px;
+	text-align: center;
+	color:rgb(0, 0, 0);
+    padding: 30px ; 
+}
+.h1 span{
+    color: #E7FF10;
+}
+   /*     End Of h1     */
+.main{
+    padding: 0px 0px 150px 75px;
+    background-color: #ffffff;
+    background-image:-moz-linear-gradient(180deg, rgba(254, 254, 254, 0.581rgba(253, 253, 253, 0.524)0.524) 100%);
+    background-image:-o-linear-gradient(180deg, rgba(254, 254, 254, 0.581rgba(253, 253, 253, 0.524)0.524) 100%);
+    background-image:-webkit-linear-gradient(180deg, rgba(254, 254, 254, 0.581rgba(253, 253, 253, 0.524)0.524) 100%);
+    background-image:linear-gradient(180deg, rgba(254, 254, 254, 0.581rgba(253, 253, 253, 0.524)0.524) 100%);
+   }
+      /*     End Of main     */
+.input-group{
+    font-size: 1.25rem;
+    position: relative;
+    --primary: #E7FF10;
+    padding: 10px;
+}
+.input{
+    color: #000000;
+    padding: 1rem;
+    transition: 150ms
+     cubic-bezier(0.4, 0, 0.2, 1);
+}
+.label{
+    position: absolute;
+    top: 1.5rem;
+    left: 1rem;
+    color: #000000;
+    pointer-events: none;
+    transition: 150ms
+    cubic-bezier(0.4, 0, 0.2, 1);
+}
+.input:focus{
+    border: 1px solid
+    var(--primary);
+}
+
+.input:is(:focus, :valid) ~ label {
+    transform: 
+     translateY(-120%)
+     scale(0.7);
+     background-color: #ffffff;
+     padding-inline: 0.3rem;
+     color: var(--primary);
+
+}
+   /*     End Of input     */
+
+.main pre{
+    font-size: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+}
+   /*     End Of input     */
+   #about{
+    background-color: #161414;
+    padding-top: 0px;
+    object-fit: cover;
+}
+#about .footer img{
+    padding-top: 5px;
+    max-width: 500px;
+    margin: 15px;
+    position: sticky;
+    bottom: 0;
+    right: 0;
+    left: 25px;
+    border-radius: 25px;
+}
+#about .footer .boom h2{
+    color: #ffffff;
+    font-family: 'Roboto Slab', serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 3rem;
+    padding-bottom: 0;
+    margin-top: 10px;
+    text-align: center;
+}
+#about .footer .boom h2 span{
+    color: #E7FF10;
+}
+/*     End Of ABOUT LIFT     */
+#about .footer h2{
+    color: #ffffff;
+    margin: 30px;
+    font-family: 'Roboto Slab', serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 3rem;
+}
+#about .footer h2 span{
+    color: #E7FF10;
+}
+#about .footer p{
+    color: #ffffff;
+    margin: 30px;
+    font-family: 'Roboto Slab', serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 1.5rem;
+    text-align: left;
+    line-height: 2.0em;
+}
+#about hr{
+    color: #ffffff;
+    background-color: #161414;
+    padding-top: 0;
+    width: 100%;
+    text-align: center;
+}
+/*     End Of ABOUT height     */
+#footer{
+    background-color: #161414;
+    padding-bottom:10px;
+}
+#footer p{
+    font-weight: 400;
+    text-align: center;
+    font-size: 1.3rem;
+    color: #ffffff;
+}
+#footer p span{
+    color: #E7FF10;
+}
